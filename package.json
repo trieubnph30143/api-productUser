@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --experimental-specifier-resolution=node functions/api.js",
     "build": "netlify deploy --prod"
   },
   "keywords": [],
@@ -17,6 +18,7 @@
     "mongoose": "^6.10.1",
     "netlify-cli": "^12.7.2",
     "netlify-lambda": "^2.0.15",
+    "nodemon": "^3.0.3",
     "serverless-http": "^2.7.0"
   }
 }
