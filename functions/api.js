@@ -8,7 +8,7 @@ const router = require("./routes/index");
 app.use(express.json());
 mongoose
   .connect(
-    `mongodb+srv://root:123@cluster0.pnvccqv.mongodb.net/?retryWrites=true&w=majority`
+    `mongodb+srv://root:123@cluster0.mni0h8u.mongodb.net/?retryWrites=true&w=majority`
   )
   .then(() => console.log("Database Connected!"));
 
